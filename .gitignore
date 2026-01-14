@@ -1,0 +1,25 @@
+# --- 로블록스 & Rojo 관련 ---
+*.rbxl
+*.rbxlx
+.rojo/
+sourcemap.json
+*.rbxl.lock
+
+# --- 패키지 매니저 (Wally) ---
+# Wally가 다운로드하는 라이브러리 폴더는 제외합니다.
+# 대신 wally.toml과 wally.lock 파일만 커밋하여 팀원이 같은 버전을 받게 합니다.
+Packages/
+ServerPackages/
+ClientPackages/
+
+# --- 도구 관리 (Aftman) ---
+# 도구 자체는 설치 시 생성되므로 제외합니다.
+.aftman/
+
+# --- 로그 및 임시 파일 ---
+*.log
+.DS_Store
+Thumbs.db
+
+# --- VS Code 관련 ---
+.vscode/

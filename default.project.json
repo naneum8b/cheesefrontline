@@ -4,21 +4,11 @@
     "$className": "DataModel",
 
     "ReplicatedStorage": {
-      "RemoteEvents": {
-        "$path": "xml/events"
-      },
-      "CubeMouse_exp1": {
-        "$path": "xml/TestModel.rbxmx"
-      }
+        "$path": "src/shared"
     },
 
     "ServerScriptService": {
-      "Manager": {
-        "$path": "src/server/manager"
-      },
-      "test": {
-        "$path": "src/server/test.server.luau"
-      }
+        "$path": "src/server"
     },
 
     "StarterPlayer": {
@@ -27,8 +17,9 @@
       }
     },
     "StarterGui": {
-      "$path": "xml/gui/screen"
+      "$path": "ui"
     },
+
     "Workspace": {
       "$properties": {
         "FilteringEnabled": true

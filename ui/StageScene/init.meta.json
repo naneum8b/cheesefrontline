@@ -1,0 +1,8 @@
+{
+  "className": "ScreenGui",
+  "properties": {
+    "Name": "StageScene",
+    "ResetOnSpawn": false,
+    "IgnoreGuiInset": true
+  }
+}

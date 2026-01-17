@@ -2,7 +2,7 @@
 	<Meta name="ExplicitAutoJoints">true</Meta>
 	<External>null</External>
 	<External>nil</External>
-	<Item class="Frame" referent="RBX1D2DDC37B1484D52859B2E8728EC1090">
+	<Item class="Frame" referent="RBXEF1BBBAE70F84DE4866851A3B82E43B0">
 		<Properties>
 			<token name="Style">0</token>
 			<bool name="Active">false</bool>
@@ -65,7 +65,7 @@
 			<int64 name="SourceAssetId">-1</int64>
 			<BinaryString name="Tags"></BinaryString>
 		</Properties>
-		<Item class="ViewportFrame" referent="RBXB9F8B172B3A8405794624BAEA6C8A111">
+		<Item class="ViewportFrame" referent="RBX22EDEB5CBF4346FFB21A1BE71D82ED60">
 			<Properties>
 				<Color3 name="Ambient">
 					<R>0.784313738</R>
@@ -164,7 +164,7 @@
 				<BinaryString name="Tags"></BinaryString>
 			</Properties>
 		</Item>
-		<Item class="Folder" referent="RBX9EA1C8E2A8AE41C4937A50051333C89D">
+		<Item class="Folder" referent="RBX66C057E07C854B5FAEF044FE2B48F0DE">
 			<Properties>
 				<BinaryString name="AttributesSerialize"></BinaryString>
 				<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
@@ -173,7 +173,7 @@
 				<int64 name="SourceAssetId">-1</int64>
 				<BinaryString name="Tags"></BinaryString>
 			</Properties>
-			<Item class="Folder" referent="RBX3A8A1BE1BE3A464B81F9795226FAD346">
+			<Item class="Folder" referent="RBX55F28F5E5A4B436CB1250AA4A216614F">
 				<Properties>
 					<BinaryString name="AttributesSerialize"></BinaryString>
 					<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
@@ -182,7 +182,7 @@
 					<int64 name="SourceAssetId">-1</int64>
 					<BinaryString name="Tags"></BinaryString>
 				</Properties>
-				<Item class="ImageLabel" referent="RBX9B38D97805404D748E4C1D78D7DBF863">
+				<Item class="ImageLabel" referent="RBXDA53774D41DF4DB9B4F450687A760959">
 					<Properties>
 						<Content name="Image"><url>rbxasset://textures/ui/GuiImagePlaceholder.png</url></Content>
 						<Color3 name="ImageColor3">
@@ -279,7 +279,7 @@
 						<BinaryString name="Tags"></BinaryString>
 					</Properties>
 				</Item>
-				<Item class="TextLabel" referent="RBXA2818A07B4E74B69A1CA381AB8EF7ECA">
+				<Item class="TextLabel" referent="RBXC75479D0F97940ADA7FFE73D05F69FE1">
 					<Properties>
 						<Font name="FontFace">
 							<Family><url>rbxasset://fonts/families/SourceSansPro.json</url></Family>
@@ -375,7 +375,7 @@
 					</Properties>
 				</Item>
 			</Item>
-			<Item class="Folder" referent="RBXBBC8D518ECA448B9AECDE6E45DDF85EF">
+			<Item class="Folder" referent="RBX4DE01E90E02549B198F4C0FE9AC19964">
 				<Properties>
 					<BinaryString name="AttributesSerialize"></BinaryString>
 					<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
@@ -384,7 +384,7 @@
 					<int64 name="SourceAssetId">-1</int64>
 					<BinaryString name="Tags"></BinaryString>
 				</Properties>
-				<Item class="TextLabel" referent="RBXD7BF58DE77884E79901F993D4B12ABF9">
+				<Item class="TextLabel" referent="RBX1492E1A3FD2A49D58A89570147F32E04">
 					<Properties>
 						<Font name="FontFace">
 							<Family><url>rbxasset://fonts/families/SourceSansPro.json</url></Family>
@@ -479,7 +479,7 @@
 						<BinaryString name="Tags"></BinaryString>
 					</Properties>
 				</Item>
-				<Item class="ImageLabel" referent="RBX477954ACC3F84840830CA72805D8913D">
+				<Item class="ImageLabel" referent="RBXFB6C9940B03147DE93CFF9600D2E5075">
 					<Properties>
 						<Content name="Image"><url>rbxasset://textures/ui/GuiImagePlaceholder.png</url></Content>
 						<Color3 name="ImageColor3">
@@ -577,7 +577,7 @@
 					</Properties>
 				</Item>
 			</Item>
-			<Item class="Folder" referent="RBX335C1794DFC0423CB0D9DEA5FDB25D7D">
+			<Item class="Folder" referent="RBX3F28BC5AAD9A48F2900E024F024B0A86">
 				<Properties>
 					<BinaryString name="AttributesSerialize"></BinaryString>
 					<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
@@ -586,7 +586,7 @@
 					<int64 name="SourceAssetId">-1</int64>
 					<BinaryString name="Tags"></BinaryString>
 				</Properties>
-				<Item class="ImageLabel" referent="RBXADF141F32FDB4F7EA74B98DA2F3559D2">
+				<Item class="ImageLabel" referent="RBX17656114C83A4893AD1B6739ADC8D5D6">
 					<Properties>
 						<Content name="Image"><url>rbxasset://textures/ui/GuiImagePlaceholder.png</url></Content>
 						<Color3 name="ImageColor3">
@@ -683,7 +683,7 @@
 						<BinaryString name="Tags"></BinaryString>
 					</Properties>
 				</Item>
-				<Item class="TextLabel" referent="RBXC1B8D6E732F94828815F5ECAB6DB4F46">
+				<Item class="TextLabel" referent="RBXF83FE56116F74254B5052A7096B9DFD0">
 					<Properties>
 						<Font name="FontFace">
 							<Family><url>rbxasset://fonts/families/SourceSansPro.json</url></Family>
@@ -780,7 +780,7 @@
 				</Item>
 			</Item>
 		</Item>
-		<Item class="Frame" referent="RBXAE258BDFA9B449DAB8F4EED70CBDA7BF">
+		<Item class="Frame" referent="RBXAB7919193BAA46CE9AC216DE7994BC89">
 			<Properties>
 				<token name="Style">0</token>
 				<bool name="Active">false</bool>
@@ -843,7 +843,7 @@
 				<int64 name="SourceAssetId">-1</int64>
 				<BinaryString name="Tags"></BinaryString>
 			</Properties>
-			<Item class="UIGridLayout" referent="RBX645680ED97B64DE1AB0E88B53CAD4329">
+			<Item class="UIGridLayout" referent="RBXAB66D9F3C13249A0904B7312E2409338">
 				<Properties>
 					<UDim2 name="CellPadding">
 						<XS>0.00499999989</XS>
@@ -871,6 +871,216 @@
 					<BinaryString name="Tags"></BinaryString>
 				</Properties>
 			</Item>
+		</Item>
+		<Item class="ImageButton" referent="RBX2AEE202EDA254DA38EF0CAE2A56811C7">
+			<Properties>
+				<Content name="HoverImage"><null></null></Content>
+				<Content name="Image"><url>rbxasset://textures/ui/GuiImagePlaceholder.png</url></Content>
+				<Color3 name="ImageColor3">
+					<R>1</R>
+					<G>1</G>
+					<B>1</B>
+				</Color3>
+				<Vector2 name="ImageRectOffset">
+					<X>0</X>
+					<Y>0</Y>
+				</Vector2>
+				<Vector2 name="ImageRectSize">
+					<X>0</X>
+					<Y>0</Y>
+				</Vector2>
+				<float name="ImageTransparency">0</float>
+				<Content name="PressedImage"><null></null></Content>
+				<token name="ResampleMode">0</token>
+				<token name="ScaleType">0</token>
+				<Rect2D name="SliceCenter">
+					<min>
+						<X>0</X>
+						<Y>0</Y>
+					</min>
+					<max>
+						<X>0</X>
+						<Y>0</Y>
+					</max>
+				</Rect2D>
+				<float name="SliceScale">1</float>
+				<UDim2 name="TileSize">
+					<XS>1</XS>
+					<XO>0</XO>
+					<YS>1</YS>
+					<YO>0</YO>
+				</UDim2>
+				<bool name="AutoButtonColor">true</bool>
+				<Ref name="HoverHapticEffect">null</Ref>
+				<bool name="Modal">false</bool>
+				<Ref name="PressHapticEffect">null</Ref>
+				<bool name="Selected">false</bool>
+				<token name="Style">0</token>
+				<bool name="Active">true</bool>
+				<Vector2 name="AnchorPoint">
+					<X>0</X>
+					<Y>0</Y>
+				</Vector2>
+				<token name="AutomaticSize">0</token>
+				<Color3 name="BackgroundColor3">
+					<R>1</R>
+					<G>1</G>
+					<B>1</B>
+				</Color3>
+				<float name="BackgroundTransparency">0</float>
+				<Color3 name="BorderColor3">
+					<R>0</R>
+					<G>0</G>
+					<B>0</B>
+				</Color3>
+				<token name="BorderMode">0</token>
+				<int name="BorderSizePixel">0</int>
+				<bool name="ClipsDescendants">false</bool>
+				<bool name="Draggable">false</bool>
+				<bool name="Interactable">true</bool>
+				<int name="LayoutOrder">0</int>
+				<Ref name="NextSelectionDown">null</Ref>
+				<Ref name="NextSelectionLeft">null</Ref>
+				<Ref name="NextSelectionRight">null</Ref>
+				<Ref name="NextSelectionUp">null</Ref>
+				<UDim2 name="Position">
+					<XS>0.0250000004</XS>
+					<XO>0</XO>
+					<YS>0.649999976</YS>
+					<YO>0</YO>
+				</UDim2>
+				<float name="Rotation">0</float>
+				<bool name="Selectable">true</bool>
+				<Ref name="SelectionImageObject">null</Ref>
+				<int name="SelectionOrder">0</int>
+				<UDim2 name="Size">
+					<XS>0.0500000007</XS>
+					<XO>0</XO>
+					<YS>0.100000001</YS>
+					<YO>0</YO>
+				</UDim2>
+				<token name="SizeConstraint">0</token>
+				<bool name="Visible">true</bool>
+				<int name="ZIndex">1</int>
+				<bool name="AutoLocalize">true</bool>
+				<Ref name="RootLocalizationTable">null</Ref>
+				<token name="SelectionBehaviorDown">0</token>
+				<token name="SelectionBehaviorLeft">0</token>
+				<token name="SelectionBehaviorRight">0</token>
+				<token name="SelectionBehaviorUp">0</token>
+				<bool name="SelectionGroup">false</bool>
+				<BinaryString name="AttributesSerialize"></BinaryString>
+				<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+				<bool name="DefinesCapabilities">false</bool>
+				<string name="Name">INGAME_ATTACK_UPGRADE</string>
+				<int64 name="SourceAssetId">-1</int64>
+				<BinaryString name="Tags"></BinaryString>
+			</Properties>
+		</Item>
+		<Item class="ImageButton" referent="RBXD7C210B475AB4292BE70764DBBEA93BC">
+			<Properties>
+				<Content name="HoverImage"><null></null></Content>
+				<Content name="Image"><url>rbxasset://textures/ui/GuiImagePlaceholder.png</url></Content>
+				<Color3 name="ImageColor3">
+					<R>1</R>
+					<G>1</G>
+					<B>1</B>
+				</Color3>
+				<Vector2 name="ImageRectOffset">
+					<X>0</X>
+					<Y>0</Y>
+				</Vector2>
+				<Vector2 name="ImageRectSize">
+					<X>0</X>
+					<Y>0</Y>
+				</Vector2>
+				<float name="ImageTransparency">0</float>
+				<Content name="PressedImage"><null></null></Content>
+				<token name="ResampleMode">0</token>
+				<token name="ScaleType">0</token>
+				<Rect2D name="SliceCenter">
+					<min>
+						<X>0</X>
+						<Y>0</Y>
+					</min>
+					<max>
+						<X>0</X>
+						<Y>0</Y>
+					</max>
+				</Rect2D>
+				<float name="SliceScale">1</float>
+				<UDim2 name="TileSize">
+					<XS>1</XS>
+					<XO>0</XO>
+					<YS>1</YS>
+					<YO>0</YO>
+				</UDim2>
+				<bool name="AutoButtonColor">true</bool>
+				<Ref name="HoverHapticEffect">null</Ref>
+				<bool name="Modal">false</bool>
+				<Ref name="PressHapticEffect">null</Ref>
+				<bool name="Selected">false</bool>
+				<token name="Style">0</token>
+				<bool name="Active">true</bool>
+				<Vector2 name="AnchorPoint">
+					<X>0</X>
+					<Y>0</Y>
+				</Vector2>
+				<token name="AutomaticSize">0</token>
+				<Color3 name="BackgroundColor3">
+					<R>1</R>
+					<G>1</G>
+					<B>1</B>
+				</Color3>
+				<float name="BackgroundTransparency">0</float>
+				<Color3 name="BorderColor3">
+					<R>0</R>
+					<G>0</G>
+					<B>0</B>
+				</Color3>
+				<token name="BorderMode">0</token>
+				<int name="BorderSizePixel">0</int>
+				<bool name="ClipsDescendants">false</bool>
+				<bool name="Draggable">false</bool>
+				<bool name="Interactable">false</bool>
+				<int name="LayoutOrder">0</int>
+				<Ref name="NextSelectionDown">null</Ref>
+				<Ref name="NextSelectionLeft">null</Ref>
+				<Ref name="NextSelectionRight">null</Ref>
+				<Ref name="NextSelectionUp">null</Ref>
+				<UDim2 name="Position">
+					<XS>0.0250000004</XS>
+					<XO>0</XO>
+					<YS>0.800000012</YS>
+					<YO>0</YO>
+				</UDim2>
+				<float name="Rotation">0</float>
+				<bool name="Selectable">true</bool>
+				<Ref name="SelectionImageObject">null</Ref>
+				<int name="SelectionOrder">0</int>
+				<UDim2 name="Size">
+					<XS>0.0500000007</XS>
+					<XO>0</XO>
+					<YS>0.100000001</YS>
+					<YO>0</YO>
+				</UDim2>
+				<token name="SizeConstraint">0</token>
+				<bool name="Visible">true</bool>
+				<int name="ZIndex">1</int>
+				<bool name="AutoLocalize">true</bool>
+				<Ref name="RootLocalizationTable">null</Ref>
+				<token name="SelectionBehaviorDown">0</token>
+				<token name="SelectionBehaviorLeft">0</token>
+				<token name="SelectionBehaviorRight">0</token>
+				<token name="SelectionBehaviorUp">0</token>
+				<bool name="SelectionGroup">false</bool>
+				<BinaryString name="AttributesSerialize"></BinaryString>
+				<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+				<bool name="DefinesCapabilities">false</bool>
+				<string name="Name">INGAME_DEFENSE_UPGRADE</string>
+				<int64 name="SourceAssetId">-1</int64>
+				<BinaryString name="Tags"></BinaryString>
+			</Properties>
 		</Item>
 	</Item>
 </roblox>

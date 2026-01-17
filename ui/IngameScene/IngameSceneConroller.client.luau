@@ -16,7 +16,7 @@ local function setAttackDirectionButtonsVisible(visible)
     end
 end
 
-local function InitializeAttackDirectionButtons()
+local function InitializeAttackDirectionButton()
     local template = script.Parent.Templates.Slot
     local attackEvent = remoteEvent:WaitForChild("AttackDirectionEvent")
 
@@ -40,7 +40,7 @@ local function InitializeAttackDirectionButtons()
     end
 end
 
-local function InitializeUpgradeButtons()
+local function InitializeUpgradeButton()
     local upgradeEvent = remoteEvent:WaitForChild("UpgradeEvent")
 
     frame.INGAME_ATTACK_UPGRADE.MouseButton1Click:Connect(function()
@@ -54,5 +54,15 @@ local function InitializeUpgradeButtons()
     end)
 end
 
-InitializeAttackDirectionButtons()
-InitializeUpgradeButtons()
+local function InitializePickingOccupaierButton()
+    local pickEvent = remoteEvent:WaitForChild("PickOccupierEvent")
+
+    frame.INGAME_OCCUPATION_UNIT_ICON.MouseButton1Click:Connect(function()
+        pickEvent:FireServer()
+        print("Pick occupier clicked")
+    end)
+end
+
+InitializeAttackDirectionButton()
+InitializeUpgradeButton()
+InitializePickingOccupaierButton()

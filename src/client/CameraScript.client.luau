@@ -7,6 +7,7 @@ local UserInputService = game:GetService("UserInputService")
 local Workspace = game:GetService("Workspace")
 
 local camera = Workspace.CurrentCamera
+local player = Players.LocalPlayer
 
 -- 시작 위치에 따라 설정값 세팅 필요
 -- ================= [설 정] =================
@@ -27,6 +28,35 @@ local currentYaw = VIEW_ROTATION * (math.pi / 180)
 local focusPosition = START_POS
 local isRightMouseDown = false 
 local hasZoomed = false 
+
+-----------------------------------------------------------------------
+-- [1] 캐릭터 처리: 투명하게 만들고 + 땅에 박아버림 (움직임 봉인)
+-----------------------------------------------------------------------
+local function LockAndHideCharacter(char)
+    if not char then return end
+
+    -- 0.5초 대기 (로딩 안전장치)
+    task.wait(0.5)
+
+    local rootPart = char:WaitForChild("HumanoidRootPart", 5)
+    
+    -- 1. 물리적 고정 (Anchored) -> WASD 눌러도 몸이 안 나감
+    if rootPart then
+        rootPart.Anchored = true 
+    end
+    
+    -- 2. 눈에 안 보이게 투명화
+    for _, part in ipairs(char:GetDescendants()) do
+        if part:IsA("BasePart") or part:IsA("Decal") then
+            part.Transparency = 1
+            part.CanCollide = false -- 충돌도 없앰
+        end
+    end
+end
+
+-- 캐릭터가 태어날 때마다 실행
+if player.Character then LockAndHideCharacter(player.Character) end
+player.CharacterAdded:Connect(LockAndHideCharacter)
 
 -- 시작하자마자 카메라 모드 변경
 camera.CameraType = Enum.CameraType.Scriptable

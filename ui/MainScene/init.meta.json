@@ -3,6 +3,10 @@
   "properties": {
     "Name": "MainScene",
     "ResetOnSpawn": false,
-    "IgnoreGuiInset": true
+    "IgnoreGuiInset": true,
+    "SafeAreaCompatibility": "None",
+    "ScreenInsets": "None",
+    "DisplayOrder" : 90,
+    "Enabled": true
   }
 }

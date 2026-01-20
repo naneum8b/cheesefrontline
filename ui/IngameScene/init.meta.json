@@ -3,6 +3,9 @@
   "properties": {
     "Name": "IngameScene",
     "ResetOnSpawn": false,
-    "IgnoreGuiInset": true
+    "IgnoreGuiInset": true,
+    "SafeAreaCompatibility": "None",
+    "ScreenInsets": "None",
+    "DisplayOrder" : 80
   }
 }

@@ -3,7 +3,6 @@
   "properties": {
     "Name": "ResultScene",
     "ResetOnSpawn": false,
-    "IgnoreGuiInset": true,
     "SafeAreaCompatibility": "None",
     "ScreenInsets": "None"
   }

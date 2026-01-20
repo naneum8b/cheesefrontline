@@ -3,7 +3,6 @@
   "properties": {
     "Name": "QueuePopup",
     "ResetOnSpawn": false,
-    "IgnoreGuiInset": true,
     "SafeAreaCompatibility": "None",
     "ScreenInsets": "None",
     "DisplayOrder" : 110,

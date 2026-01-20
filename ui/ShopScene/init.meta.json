@@ -3,7 +3,6 @@
   "properties": {
     "Name": "ShopScene",
     "ResetOnSpawn": false,
-    "IgnoreGuiInset": true,
     "SafeAreaCompatibility": "None",
     "ScreenInsets": "None"
   }

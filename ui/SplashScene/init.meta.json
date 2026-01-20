@@ -3,10 +3,9 @@
   "properties": {
     "Name": "SplashScene",
     "ResetOnSpawn": false,
-    "IgnoreGuiInset": true,
     "SafeAreaCompatibility": "None",
     "ScreenInsets": "None",
-    "DisplayOrder" : 110,
-    "Enabled": true
+    "DisplayOrder" : 100,
+    "Enabled": false
   }
 }

@@ -3,6 +3,8 @@
   "properties": {
     "Name": "StageScene",
     "ResetOnSpawn": false,
-    "IgnoreGuiInset": true
+    "IgnoreGuiInset": true,
+    "SafeAreaCompatibility": "None",
+    "ScreenInsets": "None"
   }
 }

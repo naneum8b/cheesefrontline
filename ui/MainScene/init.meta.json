@@ -6,6 +6,6 @@
     "SafeAreaCompatibility": "None",
     "ScreenInsets": "None",
     "DisplayOrder" : 90,
-    "Enabled": false
+    "Enabled": true
   }
 }

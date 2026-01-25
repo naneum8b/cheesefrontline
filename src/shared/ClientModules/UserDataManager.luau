@@ -11,34 +11,34 @@ function DataManager.LoadUserData(onStatusUpdate)
 	task.wait(0.5)
 	
 	if onStatusUpdate then onStatusUpdate("유저 데이터 로딩 중...") end
-	
+	return nil
 	-- 2. 서버 요청
-	userDataEvent:FireServer("LoadData")
-	print("서버 요청")
+	-- userDataEvent:FireServer("LoadData")
+	-- print("서버 요청")
     
-	-- 3. 응답 대기
-	local loadedData = nil
-	local isFinished = false
-	local connection
+	-- -- 3. 응답 대기
+	-- local loadedData = nil
+	-- local isFinished = false
+	-- local connection
 	
-	connection = userDataEvent.OnClientEvent:Connect(function(responseType, data)
-		if responseType == "DataLoaded" then
-			loadedData = data
-			isFinished = true
-			if connection then connection:Disconnect() end
-		end
-        print(responseType)
-	end)
+	-- connection = userDataEvent.OnClientEvent:Connect(function(responseType, data)
+	-- 	if responseType == "DataLoaded" then
+	-- 		loadedData = data
+	-- 		isFinished = true
+	-- 		if connection then connection:Disconnect() end
+	-- 	end
+    --     print(responseType)
+	-- end)
 	
-	-- 데이터가 올 때까지 대기
-	while not isFinished do
-		task.wait(0.1)
-	end
+	-- -- 데이터가 올 때까지 대기
+	-- while not isFinished do
+	-- 	task.wait(0.1)
+	-- end
 	
-	if onStatusUpdate then onStatusUpdate("데이터 로드 완료!") end
-	task.wait(0.5)
+	-- if onStatusUpdate then onStatusUpdate("데이터 로드 완료!") end
+	-- task.wait(0.5)
 	
-	return loadedData
+	-- return loadedData
 end
 
 return DataManager

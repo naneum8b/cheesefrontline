@@ -6,35 +6,6 @@ local player = Players.LocalPlayer
 local mainScene = player:WaitForChild("PlayerGui"):WaitForChild("MainScene")
 local imageLabel = mainScene.Frame.ImageLabel
 
--- RemoteEvent 가져오기
-local userDataEvent = ReplicatedStorage:WaitForChild("RemoteEvents"):WaitForChild("UserDataRequest")
-
--- 유저 데이터 저장 변수
-local userData = nil
-
--- 유저 데이터 가져오기
-local function getUserData()
-	if not userData then
-		userDataEvent:FireServer("GetData")
-		
-		local connection
-		connection = userDataEvent.OnClientEvent:Connect(function(responseType, data)
-			if responseType == "CurrentData" then
-				userData = data
-				connection:Disconnect()
-			end
-		end)
-		
-		-- 데이터가 올 때까지 잠시 대기
-		local startTime = tick()
-		while not userData and (tick() - startTime) < 2 do
-			task.wait(0.1)
-		end
-	end
-	
-	return userData
-end
-
 -- ImageButton들을 찾음
 local imageButtons = {
 	imageLabel:FindFirstChild("Main_PveButton"),
@@ -54,8 +25,13 @@ local buttonFunctions = {
 	-- 두 번째 버튼 기능
 	function()
 		print("두 번째 버튼이 클릭되었습니다.")
-		-- 여기에 두 번째 버튼의 특정 기능을 추가하세요
-		-- 예: 게임 시작, 캐릭터 선택, 스토리 모드 등
+		local queuePopup = player:WaitForChild("PlayerGui"):WaitForChild("QueuePopup")
+		if queuePopup then
+			queuePopup.Enabled = true
+			print("QueuePopup이 활성화되었습니다.")
+		else
+			warn("경고: PlayerGui 안에 'QueuePopup'이 없습니다.")
+		end
 	end,
 	
 	-- 세 번째 버튼 기능
@@ -73,8 +49,7 @@ local function onButtonClicked(buttonIndex)
 	if buttonFunctions[buttonIndex] then
 		buttonFunctions[buttonIndex]()
 	end
-	print("onButtonClicked")
-	-- MainScene 비활성화 (공통 동작)
+	
 	mainScene.Enabled = false
 end
 

@@ -32,7 +32,7 @@ local function main()
 		-- userData를 다른 시스템에 넘겨주거나 저장하는 로직 추가 가능
 	else
 		UIManager.UpdateText("데이터 로드 실패!")
-		task.wait(2)
+		-- task.wait(2)
 	end
 	
 	-- 스플래시 종료

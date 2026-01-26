@@ -3,6 +3,10 @@ local Players = game:GetService("Players")
 local player = Players.LocalPlayer
 local playerGui = player:WaitForChild("PlayerGui")
 
+local ReplicatedStorage = game:GetService("ReplicatedStorage")
+local ClientModules = ReplicatedStorage:WaitForChild("ClientModules")
+local SceneManager = require(ClientModules:WaitForChild("SceneManager"))
+
 -- 1. 제어할 ScreenGui 찾기
 -- (스크립트 위치에 따라 경로를 수정하세요. 예: script.Parent)
 local queuePopup = playerGui:WaitForChild("QueuePopup") 
@@ -11,7 +15,8 @@ local queuePopup = playerGui:WaitForChild("QueuePopup")
 local timerLabel = queuePopup:FindFirstChild("QueuePopup_TimerLabel", true) 
 
 -- 설정값
-local TIMEOUT_SECONDS = 20
+-- local TIMEOUT_SECONDS = 20
+local TIMEOUT_SECONDS = 3
 
 --------------------------------------------------------------------------------
 -- 타이머 로직 함수
@@ -31,8 +36,10 @@ local function startTimer()
 		
 		-- 3. 20초가 지났는지 체크
 		if elapsed >= TIMEOUT_SECONDS then
-			print("⏰ 타임아웃! 매칭 팝업을 닫습니다.")
-			queuePopup.Enabled = false -- 팝업 끄기
+			print("⏰ 매칭 완료(타임아웃)! 게임을 시작합니다.")
+			
+			-- [수정된 부분] 단순히 끄는 게 아니라, 매니저에게 '게임 시작' 요청
+			SceneManager.StartGameProcess()
 			
 			-- 여기에 "매칭 실패" 알림을 띄우는 코드를 추가할 수도 있습니다.
 			break

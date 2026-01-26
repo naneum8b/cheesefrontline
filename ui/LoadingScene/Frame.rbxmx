@@ -2,7 +2,7 @@
 	<Meta name="ExplicitAutoJoints">true</Meta>
 	<External>null</External>
 	<External>nil</External>
-	<Item class="Frame" referent="RBX4557EB1CC8C546E7AF0EA655D6174942">
+	<Item class="Frame" referent="RBX02C142CCC8954529827D86D45AC12A12">
 		<Properties>
 			<token name="Style">0</token>
 			<bool name="Active">false</bool>
@@ -65,7 +65,7 @@
 			<int64 name="SourceAssetId">-1</int64>
 			<BinaryString name="Tags"></BinaryString>
 		</Properties>
-		<Item class="ImageLabel" referent="RBXE87BBECA36B544C6864F9921F152E8D0">
+		<Item class="ImageLabel" referent="RBXB5865CA64B3E48BF947CC1823632FEEC">
 			<Properties>
 				<Content name="Image"><url>rbxasset://textures/ui/GuiImagePlaceholder.png</url></Content>
 				<Color3 name="ImageColor3">
@@ -161,7 +161,7 @@
 				<int64 name="SourceAssetId">-1</int64>
 				<BinaryString name="Tags"></BinaryString>
 			</Properties>
-			<Item class="TextLabel" referent="RBX692DE64A64A047F5A580C6C44E5E2873">
+			<Item class="TextLabel" referent="RBX8A2B01E9CB0643F2BAA651FAD590B204">
 				<Properties>
 					<Font name="FontFace">
 						<Family><url>rbxasset://fonts/families/SourceSansPro.json</url></Family>
@@ -183,7 +183,7 @@
 					</Color3>
 					<token name="TextDirection">0</token>
 					<bool name="TextScaled">false</bool>
-					<float name="TextSize">14</float>
+					<float name="TextSize">30</float>
 					<Color3 name="TextStrokeColor3">
 						<R>0</R>
 						<G>0</G>
@@ -206,7 +206,7 @@
 						<G>1</G>
 						<B>1</B>
 					</Color3>
-					<float name="BackgroundTransparency">0</float>
+					<float name="BackgroundTransparency">1</float>
 					<Color3 name="BorderColor3">
 						<R>0</R>
 						<G>0</G>
@@ -251,7 +251,7 @@
 					<BinaryString name="AttributesSerialize"></BinaryString>
 					<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
 					<bool name="DefinesCapabilities">false</bool>
-					<string name="Name">TextLabel</string>
+					<string name="Name">LoadingScene_ProgressLabel</string>
 					<int64 name="SourceAssetId">-1</int64>
 					<BinaryString name="Tags"></BinaryString>
 				</Properties>

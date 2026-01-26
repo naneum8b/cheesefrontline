@@ -63,6 +63,7 @@ local function InitializePickingOccupaierButton()
     end)
 end
 
+-- Initialization
 InitializeAttackDirectionButton()
 InitializeUpgradeButton()
 InitializePickingOccupaierButton()

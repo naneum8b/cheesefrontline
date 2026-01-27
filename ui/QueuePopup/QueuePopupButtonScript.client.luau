@@ -26,7 +26,7 @@ local function onButtonClicked(buttonIndex)
 	if buttonFunctions[buttonIndex] then
 		buttonFunctions[buttonIndex]()
 	end
-	
+	event:FireServer("LeaveQueue")
 	queuePopup.Enabled = false
 end
 

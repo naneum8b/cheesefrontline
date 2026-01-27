@@ -62,3 +62,12 @@ for i, imageButton in ipairs(imageButtons) do
 		end)
 	end
 end
+
+
+pvpButton.Activated:Connect(function()
+	-- 서버에 "나 줄 설래!" 요청
+	event:FireServer("JoinQueue")
+
+	-- UI 처리
+	queuePopup.Enabled = true
+end)

@@ -1,6 +1,6 @@
 local queuePopup = script.Parent
 local updateSignal = queuePopup:WaitForChild("QueueUpdateSignal") -- 내선 전화기
-local stateBG = queuePopup:WaitForChild("QueuePopup_BG"):WaitForChild("QueuePopup_StateBG") -- 경로 확인
+local stateBG = queuePopup:WaitForChild("Frame"):WaitForChild("QueuePopup_BG"):WaitForChild("QueuePopup_StateBG") -- 경로 확인
 
 -- 2. 사용할 이미지 에셋 ID (여기에 님의 이미지 ID를 넣으세요!)
 -- 예시: "rbxassetid://123456789"

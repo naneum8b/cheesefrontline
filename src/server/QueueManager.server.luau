@@ -79,7 +79,7 @@ event.OnServerEvent:Connect(function(player, requestType)
 			print("빈 큐가 없음. 새로 생성합니다.")
 			local newQueue = {
 				players = { player },
-				id = HttpService:GenerateGUID(false) -- 유니크 ID (필요시 사용)
+				-- id = HttpService:GenerateGUID(false) -- 유니크 ID (필요시 사용)
 			}
 			table.insert(activeQueues, newQueue)
 			broadcastQueueStatus(newQueue)

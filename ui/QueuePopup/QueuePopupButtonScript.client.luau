@@ -3,7 +3,7 @@ local Players = game:GetService("Players")
 
 local player = Players.LocalPlayer
 local queuePopup = player:WaitForChild("PlayerGui"):WaitForChild("QueuePopup")
-local imageLabel = queuePopup.Frame.ImageLabel
+local imageLabel = queuePopup.Frame.QueuePopup_BG
 
 -- ImageButton들을 찾음
 local imageButtons = {

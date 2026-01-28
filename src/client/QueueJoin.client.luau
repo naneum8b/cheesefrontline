@@ -19,6 +19,6 @@ event.OnClientEvent:Connect(function(responseType, currentCount, maxCount)
 		print("큐 상태 업데이트 받음:", currentCount, maxCount)
 		
 		-- [핵심] UI 스크립트에게 신호 쏘기! (함수 호출 대신 Event Fire)
-		uiSignal:Fire(current, max)
+		uiSignal:Fire(currentCount, maxCount)
 	end
 end)

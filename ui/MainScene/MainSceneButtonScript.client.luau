@@ -5,6 +5,9 @@ local player = Players.LocalPlayer
 local mainScene = player:WaitForChild("PlayerGui"):WaitForChild("MainScene")
 local imageLabel = mainScene.Frame.ImageLabel
 
+local ReplicatedStorage = game:GetService("ReplicatedStorage")
+local event = ReplicatedStorage:WaitForChild("RemoteEvents"):WaitForChild("QueueJoinEvent")
+
 -- ImageButton들을 찾음
 local imageButtons = {
 	imageLabel:FindFirstChild("Main_PveButton"),
@@ -27,6 +30,7 @@ local buttonFunctions = {
 		print("두 번째 버튼이 클릭되었습니다.")
 		local queuePopup = player:WaitForChild("PlayerGui"):WaitForChild("QueuePopup")
 		if queuePopup then
+			event:FireServer("JoinQueue")
 			queuePopup.Enabled = true
 			print("QueuePopup이 활성화되었습니다.")
 		else
@@ -62,12 +66,3 @@ for i, imageButton in ipairs(imageButtons) do
 		end)
 	end
 end
-
-
-pvpButton.Activated:Connect(function()
-	-- 서버에 "나 줄 설래!" 요청
-	event:FireServer("JoinQueue")
-
-	-- UI 처리
-	queuePopup.Enabled = true
-end)
